@@ -1,0 +1,34 @@
+
+
+GET http://localhost:4000/createTable
+
+###
+
+
+POST http://localhost:4000/register/
+Content-Type: application/json
+
+{
+    "username":"Shubham",
+    "password":"Shubham@1",
+    "email":"shubham12@gmail.com",
+    "phone":"6299024768"
+}
+
+###
+POST http://localhost:4000/logins
+Content-Type:application/json 
+
+
+{
+  "username": "Shubham",
+  "password": "Shubham@1"
+}
+
+###
+
+
+GET http://localhost:4000/getDetails
+
+###
+DELETE http://localhost:4000/delete
